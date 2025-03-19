@@ -11,3 +11,6 @@ verificarPar(4);
 verificarPar(7);
 
 
+function calcular (numero){
+        
+}

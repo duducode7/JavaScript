@@ -11,6 +11,10 @@ verificarPar(4);
 verificarPar(7);
 
 
-function calcular (numero){
-        
+function calcular (n1,n2){
+
+    const soma = n1 + n2;
+    const subtracao = n1 - n2;
+    const divisao = n2 !== 0 ? n1/n2: 'Não pode dividir por zero';
+    
 }

@@ -38,3 +38,10 @@ while(numero >=1){
     console.log(numero);
     numero--;
 }
+
+
+    
+    let original= "JavaScript"
+    let invertido = original.split("").reverse().join("")
+    console.log(invertido)
+    

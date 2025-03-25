@@ -50,4 +50,14 @@ function contarCaracteres (palavras) {
     console.log(palavras.length)
 }
 
-contarCaracteres(prompt("Digite uma palavra"))
+//contarCaracteres(prompt("Digite uma palavra"))
+
+let carros = {
+    marca: "BMW",
+    modelo: "320i",
+    ano: "2024"
+}
+
+console.log(carros.marca);
+console.log(carros.modelo);
+console.log(carros.ano);

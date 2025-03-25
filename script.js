@@ -44,4 +44,10 @@ while(numero >=1){
     let original= "JavaScript"
     let invertido = original.split("").reverse().join("")
     console.log(invertido)
-    
+
+
+function contarCaracteres (palavras) {
+    console.log(palavras.length)
+}
+
+contarCaracteres(prompt("Digite uma palavra"))

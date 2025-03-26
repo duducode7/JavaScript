@@ -61,3 +61,50 @@ let carros = {
 console.log(carros.marca);
 console.log(carros.modelo);
 console.log(carros.ano);
+
+function mensagemPersonalizada(nome, mensagem = "Olá!") {
+    console.log(`${mensagem} ${nome}`);
+}
+
+
+mensagemPersonalizada("Éwerton");
+
+mensagemPersonalizada("Éwerton", "Boa noite!");
+
+
+
+
+
+
+function media(n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
+}
+
+console.log(media(7, 8, 9));
+
+
+
+
+
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 3 === 0) {
+        console.log(`${i}: Múltiplo de 3`);
+    } else {
+        console.log(`${i}: Não múltiplo de 3`);
+    }
+}
+
+
+
+
+
+function verificarPalindromo(palavra) {
+    let invertida = palavra.split('').reverse().join('');
+    return palavra === invertida;
+}
+
+
+console.log(verificarPalindromo("hello"));
+
+console.log(verificarPalindromo("arara"));
